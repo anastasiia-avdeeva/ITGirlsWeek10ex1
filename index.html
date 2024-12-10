@@ -14,15 +14,27 @@
           src="./assets/img/dog1.jpg"
           alt="photo of dog"
           class="gallery__img"
-          id="imgShow"
+          id="imgShown"
         />
       </div>
       <div class="gallery__btns">
-        <button class="gallery__btn gallery__prevBtn" id="prevBtn" disabled>
+        <button
+          class="gallery__btn gallery__prevBtn"
+          id="prevBtn"
+          disabled
+          onclick="showPrevImg()"
+        >
           Previous
         </button>
-        <button class="gallery__btn gallery__nextBtn" id="nextBtn">Next</button>
+        <button
+          class="gallery__btn gallery__nextBtn"
+          id="nextBtn"
+          onclick="showNextImg()"
+        >
+          Next
+        </button>
       </div>
     </section>
+    <script src="changePic.js"></script>
   </body>
 </html>

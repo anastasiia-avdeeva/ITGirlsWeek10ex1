@@ -20,12 +20,13 @@ button {
 .gallery__img-container {
   margin: 0 auto;
   width: 40%;
+  height: 500px;
 }
 .gallery__img {
   width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .gallery__btns {
   width: 70%;

@@ -22,12 +22,14 @@ button {
   &__img-container {
     margin: 0 auto;
     width: 40%;
+    height: 500px;
   }
 
   &__img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    // object-fit: contain;
+    object-fit: cover;
   }
 
   &__btns {
