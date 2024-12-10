@@ -3,3 +3,32 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.gallery__img-container {
+  margin: 0 auto;
+  width: 50%;
+}
+.gallery__img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.gallery__btns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery__btn {
+  height: 30px;
+  width: 20%;
+  border: none;
+  background-color: black;
+  color: white;
+}
